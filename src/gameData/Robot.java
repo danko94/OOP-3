@@ -25,8 +25,8 @@ public class Robot {
 			rPos = jsonRobot.getString("pos");
 			String[] posArray = rPos.split(",");
 			double x = Double.parseDouble(posArray[0]);
-			double y = Double.parseDouble(posArray[0]);
-			double z = Double.parseDouble(posArray[0]);
+			double y = Double.parseDouble(posArray[1]);
+			double z = Double.parseDouble(posArray[2]);
 			this.robotPos = new Point3D(x, y, z);
 		} catch (JSONException e) {
 			e.printStackTrace();

@@ -452,6 +452,7 @@ public class DGraph implements graph, Serializable{
 					((Edge)edge).setHasFruit(true);
 					((Edge)edge).setFruit(fruit);
 				}
+			
 			}
 		}
 

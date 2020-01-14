@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import dataStructure.edge_data;
 import utils.Point3D;
 
 public class Fruit {
@@ -27,6 +28,9 @@ public class Fruit {
 		JSONObject obj;
 		String posString;
 		double x,y,z,value;
+		
+		
+		 
 		
 		try {
 			obj = new JSONObject(sub);
